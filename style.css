@@ -17,3 +17,19 @@ h1 {
   background-color: white;
   text-align: center;
 }
+
+section {
+  margin: 1%;
+  padding: 3%;
+  background-color: white;
+}
+
+main > section {
+  display: inline-block;
+  width: 55%;
+}
+
+main > div.right-side {
+  display: inline-block;
+  width: 30%;
+}

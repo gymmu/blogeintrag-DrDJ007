@@ -22,17 +22,18 @@ section {
   margin: 1%;
   padding: 3%;
   background-color: white;
+  min-width: 53%;
+  max-width: 65%;
 }
 
-main > section {
-  display: inline-block;
-  width: 55%;
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-main > div.right-side {
-  display: inline-block;
-  width: 30%;
+.right-side {
   background-color: white;
-  margin: 0 auto;
-  padding: 20px;
+  margin: 1%;
+  padding: 3%;
 }

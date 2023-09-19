@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 *,
 *::before,
 *::after {
@@ -5,7 +9,68 @@
 }
 
 body {
-  margin: 0;
   background-color: lightgray;
   font-family: sans-serif;
+}
+
+h1 {
+  position: sticky; top: 0; 
+  border-left: 20px solid lightgray;
+  border-right: 20px solid lightgray;
+  border-top: 20px solid lightgray;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+  text-align: center;
+}
+
+#Navigationsseite {
+  position: sticky; top: 0;
+  border: 20px solid lightgray;
+  padding: 50px;
+  background-color: white;
+  text-align: center;
+  font-size: 135%;
+}
+
+.links {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  font-size: 1.6rem;
+}
+
+section {
+  border: 10px solid lightgray;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  padding: 50px;
+  background-color: white;
+  min-width: 53%;
+  max-width: 65%;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.right-side {
+  background-color: white;
+  border: 10px solid lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 10px;
+  padding: 50px;
 }

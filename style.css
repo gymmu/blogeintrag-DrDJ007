@@ -11,6 +11,7 @@ html {
 body {
   background-color: lightgray;
   font-family: sans-serif;
+  position: relative;
 }
 
 h1 {
@@ -71,4 +72,36 @@ main {
   margin-left: 5px;
   margin-right: 10px;
   padding: 50px;
+}
+
+.scroll_to_top {
+  position: absolute;
+  top: 0;
+  right:0;
+  height: 100%;
+}
+
+.scroll_to_top:before {
+  content: '';
+  display: block;
+  height: 100vh;
+  pointer-events: none;
+}
+
+.scroll_to_top a {
+  position: sticky;
+  top: 88vh;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#scroll_button {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+#crunchyroll_img {
+  height: 80%;
+  width: 80%;
 }

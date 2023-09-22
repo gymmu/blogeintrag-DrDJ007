@@ -11,10 +11,10 @@ html {
 body {
   background-color: lightgray;
   font-family: sans-serif;
+  position: relative;
 }
 
 h1 {
-  position: sticky; top: 0; 
   border-left: 20px solid lightgray;
   border-right: 20px solid lightgray;
   border-top: 20px solid lightgray;
@@ -27,7 +27,6 @@ h1 {
 }
 
 #Navigationsseite {
-  position: sticky; top: 0;
   border: 20px solid lightgray;
   padding: 50px;
   background-color: white;
@@ -82,9 +81,9 @@ main {
   gap: 1rem;
 }
 
-.text-next-to-img > .text {
+/*.text-next-to-img > .text {
   padding: 1rem 2rem;
-}
+}*/
 
 .text-next-to-img > img {
   width: 100%;
@@ -92,4 +91,35 @@ main {
 
 main > section > div#Teil4 > p {
   margin-bottom: 50px;
+
+.scroll_to_top {
+  position: absolute;
+  top: 0;
+  right:0;
+  height: 100%;
+}
+
+.scroll_to_top:before {
+  content: '';
+  display: block;
+  height: 100vh;
+  pointer-events: none;
+}
+
+.scroll_to_top a {
+  position: sticky;
+  top: 88vh;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#scroll_button {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+#crunchyroll_img {
+  height: 80%;
+  width: 80%;
 }

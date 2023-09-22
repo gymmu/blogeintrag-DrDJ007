@@ -91,13 +91,14 @@ main {
 
 main > section > div#Teil4 > p {
   margin-bottom: 50px;
+}
 
-.scroll_to_top {
+.scroll_to_top: {
   position: absolute;
   top: 0;
   right:0;
   height: 100%;
-}
+  }
 
 .scroll_to_top:before {
   content: '';

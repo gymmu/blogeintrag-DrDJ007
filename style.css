@@ -81,10 +81,6 @@ main {
   gap: 1rem;
 }
 
-/*.text-next-to-img > .text {
-  padding: 1rem 2rem;
-}*/
-
 .text-next-to-img > img {
   width: 100%;
 }
@@ -93,12 +89,17 @@ main > section > div#Teil4 > p {
   margin-bottom: 50px;
 }
 
-.scroll_to_top: {
+#crunchyroll_img {
+  height: 80%;
+  width: 80%;
+}
+
+.scroll_to_top {
   position: absolute;
   top: 0;
   right:0;
   height: 100%;
-  }
+}
 
 .scroll_to_top:before {
   content: '';
@@ -118,9 +119,4 @@ main > section > div#Teil4 > p {
   width: 100px;
   height: 100px;
   margin: 20px;
-}
-
-#crunchyroll_img {
-  height: 80%;
-  width: 80%;
 }

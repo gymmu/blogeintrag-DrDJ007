@@ -14,7 +14,7 @@ body {
   position: relative;
 }
 
-h1 {
+#header {
   border-left: 20px solid lightgray;
   border-right: 20px solid lightgray;
   border-top: 20px solid lightgray;
@@ -119,4 +119,9 @@ main > section > div#Teil4 > p {
   width: 100px;
   height: 100px;
   margin: 20px;
+}
+
+main > section > h1 {
+  margin: 10px;
+  font-size: ;
 }
